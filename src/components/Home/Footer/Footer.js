@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import logo from '../../../image/icons/final png 1.png';
 import headaphn from '../../../image/icons/headphn.png';
+import footerimage from '../../../image/footerimage.png';
 
 
 const Footer = () => {
@@ -46,6 +47,15 @@ const Footer = () => {
                                 <p>Have any Quistions?</p>
                                 <h6>099456789</h6>
                             </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div className='row my-4'>
+                        <div className='col-md-4'>
+                            <p className='text-start'>Projectnirvoya - © 2021 All Rights Reserved</p>
+                        </div>
+                        <div className='col-md-8'>
+                            <h6 className='text-end text-primary'>Pay With <img src={footerimage} alt="" /></h6>
                         </div>
                     </div>
                 </div>

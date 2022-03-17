@@ -1,4 +1,5 @@
 import React from 'react';
+import './FlashDeals.css';
 import placeholder1 from '../../../image/flashDeals/Image Placeholder (1).png'
 import placeholder2 from '../../../image/flashDeals/Image Placeholder (2).png'
 import placeholder3 from '../../../image/flashDeals/Image Placeholder (3).png'
@@ -15,155 +16,477 @@ import placeholder13 from '../../../image/flashDeals/Image Placeholder (13).png'
 import placeholder14 from '../../../image/flashDeals/Image Placeholder.png'
 import placeholder15 from '../../../image/flashDeals/unsplash_pSVYyO-XlJk.png'
 import placeholder16 from '../../../image/flashDeals/unsplash_YS6dIfm5TqA.png'
+import flashicon from '../../../image/icons/flashcart.png';
+import blankheart from '../../../image/icons/Stroke 1.png';
+import percentage from '../../../image/icons/25%.png';
 
 const FlashDeals = () => {
     return (
         <div className='container my-5'>
+            <h4 className='text-start my-5'>Flash Deals</h4>
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder1} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+                            <img src={percentage} className="percent-icon" alt="" />
+                            <img src={placeholder1} class="card-img-top m-2 rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder2} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+                            <img src={percentage} className="percent-icon" alt="" />
+                            <img src={placeholder2} class="card-img-top rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a short card.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder3} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+                            <img src={percentage} className="percent-icon" alt="" />
+                            <img src={placeholder3} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder4} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+                            <img src={percentage} className="percent-icon" alt="" />
+                            <img src={placeholder4} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <h4 className='text-start my-5'>Featured Product</h4>
+
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder1} class="card-img-top m-2 rounded" alt="..." />
+                        </div>
+                        <div class="card-body">
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder5} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder2} class="card-img-top rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder6} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder3} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder7} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder4} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder8} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder5} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder9} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder6} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder10} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder7} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder11} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder8} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder12} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder9} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder13} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder10} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder14} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
+
+                            <img src={placeholder11} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder15} class="card-img-top" alt="..." />
+                    <div class="card h-100 rounded">
+                        <div className='flashcard m-2'>
+                            <img src={placeholder12} class="card-img-top  rounded" alt="..." />
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className='text-start'>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-warning"></span>
+                                <span class="fa fa-star text-secondary"></span>
+                                <span className='mx-2'>(0)</span>
+                            </p>
+                            <h5 class="card-title text-start">Headrest Executive Mesh Office Chair set</h5>
+                            <div className='row'>
+                                <div className='col-md-6'>
+                                    <h5 class="card-text text-start text-primary my-2">৳10500 </h5>
+                                </div>
+                                <div className='col-md-6'>
+                                    <p class="card-text text-end my-2"><img src={flashicon} alt="" /></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src={placeholder16} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     );
