@@ -71,7 +71,7 @@ const Footer = () => {
                     <hr />
                     <div className='row my-4'>
                         <div className='col-md-4'>
-                            <p className='text-start'>Projectnirvoya - © 2021 All Rights Reserved</p>
+                            <p className='text-center'>Projectnirvoya - © 2021 All Rights Reserved</p>
                         </div>
                         <div className='col-md-8'>
                             <h6 className='text-end text-primary payment-pic'>Pay With <img className='footer-img' src={footerimage} alt="" /></h6>
