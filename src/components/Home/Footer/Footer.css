@@ -3,7 +3,29 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .footer-logo-section{
+        display: none;
+    }
     .footer-img{
         width: 230px;
+    }
+    .payment-pic{
+        display: none;
+    }
+    .for-pc{
+        display: none;
+    }
+    .social-icon-for-mobile{
+        text-align: start;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .social-icon-for-mobile{
+        display: none;
+    }
+    .for-mobile{
+        display: none;
     }
   }

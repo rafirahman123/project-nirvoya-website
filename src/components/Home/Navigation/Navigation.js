@@ -5,7 +5,7 @@ import whitelist from '../../../image/icons/Stroke 1.png';
 import mycart from '../../../image/icons/Vector (3).png';
 import logo from '../../../image/icons/final png 1.png';
 import serachicon from '../../../image/icons/searchicon.png';
-import arrow from '../../../image/icons/rightarrow.png';
+// import arrow from '../../../image/icons/rightarrow.png';
 
 
 
@@ -22,7 +22,7 @@ const Navigation = () => {
                             <input class="form-control input-search " type="search" placeholder="I'm looking for..." aria-label="Search"></input>
                             <button class="search-button border-0 rounded" type="submit"><img className='search-icon' src={serachicon} alt="" /></button>
                         </form>
-                        <div className='d-flex  nav-icon mt-3'>
+                        <div className='d-flex nav-icon mt-3'>
                             <p className='icon-class'>login</p>
                             <img className='icon-text' src={profile} alt="" />
                             <p className='icon-class'>whitelist</p>
