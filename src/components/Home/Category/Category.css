@@ -1,0 +1,19 @@
+.catagory-item{
+    height: 60px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.category-img1{
+    width: 30px;
+    height: 32px;
+}
+.category-text{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.category-img2{
+    width: 10px;
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 5px;
+}

@@ -55,7 +55,7 @@ const Footer = () => {
                             <p className='text-start'>Projectnirvoya - © 2021 All Rights Reserved</p>
                         </div>
                         <div className='col-md-8'>
-                            <h6 className='text-end text-primary'>Pay With <img src={footerimage} alt="" /></h6>
+                            <h6 className='text-end text-primary'>Pay With <img className='footer-img' src={footerimage} alt="" /></h6>
                         </div>
                     </div>
                 </div>

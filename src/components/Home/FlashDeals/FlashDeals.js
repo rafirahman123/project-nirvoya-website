@@ -12,10 +12,10 @@ import placeholder9 from '../../../image/flashDeals/Image Placeholder (9).png'
 import placeholder10 from '../../../image/flashDeals/Image Placeholder (10).png'
 import placeholder11 from '../../../image/flashDeals/Image Placeholder (11).png'
 import placeholder12 from '../../../image/flashDeals/Image Placeholder (12).png'
-import placeholder13 from '../../../image/flashDeals/Image Placeholder (13).png'
-import placeholder14 from '../../../image/flashDeals/Image Placeholder.png'
-import placeholder15 from '../../../image/flashDeals/unsplash_pSVYyO-XlJk.png'
-import placeholder16 from '../../../image/flashDeals/unsplash_YS6dIfm5TqA.png'
+// import placeholder13 from '../../../image/flashDeals/Image Placeholder (13).png'
+// import placeholder14 from '../../../image/flashDeals/Image Placeholder.png'
+// import placeholder15 from '../../../image/flashDeals/unsplash_pSVYyO-XlJk.png'
+// import placeholder16 from '../../../image/flashDeals/unsplash_YS6dIfm5TqA.png'
 import flashicon from '../../../image/icons/flashcart.png';
 import blankheart from '../../../image/icons/Stroke 1.png';
 import percentage from '../../../image/icons/25%.png';
@@ -25,7 +25,7 @@ const FlashDeals = () => {
         <div className='container my-5'>
             <h4 className='text-start my-5'>Flash Deals</h4>
             <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -53,7 +53,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -81,7 +81,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -109,7 +109,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -137,22 +137,12 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
             </div>
 
             <h4 className='text-start my-5'>Featured Product</h4>
 
             <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -180,7 +170,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -208,7 +198,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -236,7 +226,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -264,7 +254,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -292,7 +282,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -320,7 +310,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -348,7 +338,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -376,7 +366,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -404,7 +394,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -432,7 +422,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={blankheart} className="heart-icon" alt="" />
@@ -460,7 +450,7 @@ const FlashDeals = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
                             <img src={placeholder12} class="card-img-top  rounded" alt="..." />

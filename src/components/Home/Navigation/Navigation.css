@@ -6,10 +6,39 @@
 }
 .icon-class{
     margin-left: 60px;
+    font-size: 16px;
 }
 .search-button{
     background-color: #0198e9;
 }
 .icon-text{
-    margin-right: 7px;
+    width: 21px ;
+    height: 20px;
 }
+.search-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-form{
+        position: relative;
+    }
+    .nav-form { position: absolute; top:70px; left:-10px; right: 5px; }
+
+    .input-search{
+        width: 290px;
+    }
+    .nav-icon{
+        position: relative;
+    }
+    .nav-icon { position: absolute; top:10px; right:0px; }
+
+    .icon-text{
+        margin-right: 5px;
+    }
+    .icon-class{
+        display: none;
+    }
+  }
