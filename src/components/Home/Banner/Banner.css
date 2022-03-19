@@ -6,3 +6,8 @@
     height: 267px;
     border-radius: 15px;
 }
+@media only screen and (max-width: 600px) {
+.banner-section{
+    margin-top: 100px;
+}
+}

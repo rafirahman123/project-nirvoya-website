@@ -8,8 +8,9 @@ const Category = () => {
         <section className='container mb-5'>
             <h4 className='text-start my-5'>Category</h4>
             <div className='row g-2 mb-2'>
-                <div className='col-md-2 col-6 d-flex catagory-item shadow'>
-                    <img className='category-img1' src={icon1} alt="" /><p className='category-text'>Health & Household</p><img className='category-img2' src={icon2} alt="" />
+                <div className='col-md-2 col-6 d-flex catagory-item  shadow'>
+                    <img className='category-img1' src={icon1} alt="" /><p className='category-text'>Health & Household</p>
+                    <img className='category-img2' src={icon2} alt="" />
                 </div>
                 <div className='col-md-2 col-6 d-flex catagory-item shadow'>
                     <img className='category-img1' src={icon1} alt="" /><p className='category-text'>Health & Household</p><img className='category-img2' src={icon2} alt="" />

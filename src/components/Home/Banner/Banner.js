@@ -8,7 +8,7 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div>
-            <section className='container banner-section my-5'>
+            <section className='container banner-section'>
                 <div className='row'>
                     <div className="col-md-8">
                         <Carousel>

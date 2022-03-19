@@ -453,6 +453,7 @@ const FlashDeals = () => {
                 <div class="col-md-3 col-6">
                     <div class="card h-100 rounded">
                         <div className='flashcard m-2'>
+                            <img src={blankheart} className="heart-icon" alt="" />
                             <img src={placeholder12} class="card-img-top  rounded" alt="..." />
                         </div>
                         <div class="card-body">
